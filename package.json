@@ -1,0 +1,36 @@
+{
+  "name": "knownledge_points-javascript",
+  "version": "0.0.1",
+  "description": "一天一个知识点-JavaScript 在线文档",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keepgoingwm/knownledge_points-JavaScript.git"
+  },
+  "keywords": [
+    "知识点",
+    "JavaScript",
+    "binder"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keepgoingwm/knownledge_points-JavaScript/issues"
+  },
+  "homepage": "https://github.com/keepgoingwm/knownledge_points-JavaScript#readme",
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "conventional-changelog": "^3.1.21",
+    "cz-conventional-changelog": "^3.2.0",
+    "git-cz": "^4.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
