@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
+    "dev": "jupyter lab",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
